@@ -1,0 +1,25 @@
+{
+  "name": "bcsync",
+  "version": "0.1.0",
+  "description": "CLI to manage BigCommerce store configurations",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "bcsync": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0"
+  }
+}
